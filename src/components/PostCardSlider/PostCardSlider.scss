@@ -1,0 +1,46 @@
+
+.post-card-slider {
+	flex-basis: 230px;
+	position: relative;
+	padding: 0 10px;
+}
+
+.post-card-img {
+	width: 208px;
+	margin: 0 auto;
+	transition: opacity .2s linear;
+
+	& > img {
+		display: block;
+		width: 100%;
+	}
+
+	&_last {
+		opacity: 0;
+		transition: opacity .2s linear;
+	}
+}
+
+.post-card-slider-arrows {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 11;
+
+	& > div {
+		cursor: pointer;
+	}
+}
+
+.post-card-slider-arrow-prev {
+	padding: 0 10px 0 0;
+}
+
+.post-card-slider-arrow-next {
+	padding: 0 0 0 10px;
+}

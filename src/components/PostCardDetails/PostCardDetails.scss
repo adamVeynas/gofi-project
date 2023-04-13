@@ -1,0 +1,26 @@
+
+.post-card-details {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.post-card-details-icon {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #C7C7CC;
+
+	& > span {
+		padding: 3px 0 0 0;
+		font-weight: 400;
+		font-size: 10px;
+	}
+}
+.post-card-details-icon-wrap {
+	cursor: pointer;
+
+	& > svg {
+		font-size: 15px;
+	}
+}	

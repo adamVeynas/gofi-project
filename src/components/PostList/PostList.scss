@@ -1,0 +1,11 @@
+.posts-list {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.posts-item {
+	&:not(:last-child) {
+		margin: 0 0 32px 0;
+	}
+}

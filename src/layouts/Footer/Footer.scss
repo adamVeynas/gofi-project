@@ -1,0 +1,36 @@
+.footer {
+	// padding: 38px 0;
+	height: 100px;
+	background-color:  #F9F9F9;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer-links-list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-basis: 900px;
+}
+
+// .footer-links-item {}
+
+.footer-link {
+	display: flex;
+	align-items: center;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1;
+	color: #000000;
+	text-decoration: none;
+	padding: 0 5px;
+
+	& > svg {
+		margin: 0 28px 0 0;
+		font-size: 25px;
+	}
+}

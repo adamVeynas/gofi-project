@@ -1,0 +1,99 @@
+.personal-settings-wrap {
+	padding: 5px 80px;
+}
+
+.personal-settings-top {
+	margin: 0 0 24px 0;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.personal-settings-img-upl {
+	// margin: 0 48px 0 0;
+	margin: 0 65px 0 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.personal-settings-img {
+	// margin: 0 0 40px 0;
+	// width: 252px;
+	// height: 252px;
+	margin: 0 0 20px 0;
+	width: 230px;
+	height: 230px;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.img-lbl-btn {
+	padding: 8px 12.5px;
+	cursor: pointer;
+	align-self: center;
+}
+
+.personal-settings-inp-img-upl {
+	opacity: 0;
+	width: 0;
+	height: 0;
+	visibility: hidden;
+}
+
+.personal-settings-store-info {
+	flex-grow: 1;
+}
+
+.inp-wrap {
+	&-storename {
+		margin: 0 0 20px 0;
+	}
+
+	&-storedescr {
+		margin: 0 0 10px 0;
+	}
+
+	&-additional-info {
+		margin: 0 0 10px 0;
+	}
+
+	&-twogis-link {
+		margin: 0 0 40px 0;
+	}
+}
+
+.store-descr-length {
+	text-align: right;
+	font-weight: 400;
+	font-size: 16px;
+	color: #8E8E93;
+	margin: 0 0 13px 0;
+}
+
+.personal-settings-bttm {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: stretch;
+
+	& > .btn-red {
+		align-self: flex-end;
+		padding: 8px 14.5px;
+	}
+}
+
+.personal-settings-bttm-center {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 0 22px 0;
+
+	& > .center-inp-wrap {
+		flex-basis: 459 / 960 * 100%;
+	}
+}

@@ -1,0 +1,42 @@
+.posts-wrap {
+	// padding: 5px 81px 20px 41px;
+	// max-height: 920px;
+	padding: 5px 81px 20px;
+	overflow-y: auto;
+}
+
+.posts-img {
+	margin-bottom: 20px;
+}
+
+.posts-search {
+	margin: 0 0 18px 0;
+	position: relative;
+}
+
+.posts-search-inp-lbl {
+	position: absolute;
+	top: 58%;
+	left: 30px;
+	transform: translateY(-50%);
+
+	& > svg {
+		font-size: 18.67px;
+	}
+}
+
+.posts-search-inp {
+	width: 100%;
+	padding: 8px 30px 8px 66px;
+	display: block;
+	border: none;
+	background: #FFFFFF;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+	border-radius: 8px;
+	font-weight: 400;
+	font-size: 16px;
+
+	&:focus {
+		outline: none;
+	}
+}

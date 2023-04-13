@@ -1,0 +1,13 @@
+.edit-post-variants-btn {
+	background: #FFFFFF;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+	border-radius: 16px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	padding: 12px 18px;
+
+	&_yes {
+		border: 2px solid #920527;
+	}
+}
