@@ -59,6 +59,7 @@ function EditPostVariants({ variantsArr = [], setVariantsArr }) {
     };
 
     const addMoreVariants = () => {
+		
         setVariantsArr((prevVal) => [
             ...prevVal,
             { name: "", inStock: true, price: "" },
