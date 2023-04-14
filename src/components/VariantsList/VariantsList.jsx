@@ -1,3 +1,4 @@
+
 import "./VariantsList.scss";
 
 function VariantsList({ variantsList = [] }) {
