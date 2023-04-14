@@ -41,7 +41,6 @@ function EditPostVariants({ variantsArr = [], setVariantsArr }) {
             if (position !== idx) {
                 return variant;
             }
-
             return {
                 name: variant.name,
                 inStock: variant.inStock,
@@ -53,13 +52,14 @@ function EditPostVariants({ variantsArr = [], setVariantsArr }) {
     };
 
     const deleteVariant = (idx) => {
-        const updatedVariantsArr = variantsArr.filter((variant, position) => (position !== idx));
+        const updatedVariantsArr = variantsArr.filter(
+            (_, position) => position !== idx
+        );
         console.log(updatedVariantsArr);
         setVariantsArr(updatedVariantsArr);
     };
 
     const addMoreVariants = () => {
-		
         setVariantsArr((prevVal) => [
             ...prevVal,
             { name: "", inStock: true, price: "" },
